@@ -13,20 +13,17 @@
     line-height: 21px; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
-
 }
 .studio-logo{
     color: var( #2E2F42);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 21px; /* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
-
-
 .studio-logo1{
     display: flex;
     width: 71px;
@@ -34,9 +31,8 @@ text-transform: uppercase;
     flex-direction: column;
     justify-content: center;
     display:inline-flex;
-
     color: var(#F4F4FD);
-    font-family: Raleway;
+    font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -56,7 +52,6 @@ body{
 .logo web{
     display:flex;
     justify-content: space-between;
-
 }
 .logo{
     display:flex;
@@ -89,21 +84,21 @@ body{
     justify-content:left;
     margin-left:auto 0;
 }
-
 .list{
     display:flex;
     gap:15px;
     justify-content:space-evenly;
     align-items:left;
     display:inline-flex;
+    margin-top:20px;
 }
 .list1{
     display:flex;
     margin-left:220px;
+    margin-top:20px;
     gap:1px;
     justify-content:flex-end;
-    align-items:center;
-  
+    align-items:center; 
 }
 .list2{
     display:flex;
@@ -111,9 +106,7 @@ body{
     gap:1px;
     justify-content:flex-end;
     align-items:center;
-  
 }
-
 .solution{
     color: var(--WHITE, #FFF);
     text-align: center;
@@ -160,8 +153,7 @@ body{
     flex-direction:row;
     align-items: center;
     justify-content:center;
-    gap:5px;
-   
+    gap:5px; 
     height:260px;
 }
 .img2{
@@ -171,7 +163,6 @@ body{
     flex-direction:column;
     align-items:flex-start;
     margin-left:30px;
-
     gap:24px;
     justify-content:space-between
 }
@@ -190,8 +181,7 @@ body{
     justify-content: left;
     flex-shrink: 0;
     padding-top:20px;
-    padding-left:20px;
-   
+    padding-left:20px;  
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -204,7 +194,6 @@ body{
     padding: 16px 32px;
     align-items: center;
     gap: 10px;
-
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -215,8 +204,7 @@ body{
     cursor:pointer;
     background-color:var (--ocean);
 }
-.description1{
-  
+.description1{ 
     color: var(--CLOUD, #F4F4FD);
     font-family: Roboto;
     font-size: 16px;
@@ -227,7 +215,6 @@ body{
     padding-top:20px;
     align-items: left;
     justify-content:left;
-
 }
 .work{
     align-items: center;
@@ -249,7 +236,6 @@ body{
     color: var(--NAVY-BLUE, #2E2F42);
     text-align:center;
     justify-content:space-evenly;
-
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -272,13 +258,11 @@ body{
 .title{
     display:flex;
     display:inline-flex;
-    align-items:flex-start;
-  
+    align-items:flex-start; 
     max-width: 1200px;
     padding: 5px;
     margin-left: auto;
     margin-right: auto;
-
     justify-content:space-evenly;
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: Roboto;
@@ -286,7 +270,6 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
-
     letter-spacing: 0.4px;
     margin-bottom: 20px;
     /*
