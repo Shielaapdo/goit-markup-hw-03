@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -16,7 +16,7 @@
 }
 .studio-logo{
     color: var( #2E2F42);
-    font-family: Raleway;
+    font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -106,6 +106,7 @@ body{
     gap:1px;
     justify-content:flex-end;
     align-items:center;
+    margin-top:20px;
 }
 .solution{
     color: var(--WHITE, #FFF);
@@ -354,7 +355,7 @@ body{
     justify-content: center;
 
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family:Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
