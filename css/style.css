@@ -147,6 +147,7 @@ body{
     flex-direction:row;
     align-items: flex-start;
     gap:24px;
+    height: 250px;
     
 }
 .img1{
@@ -156,7 +157,7 @@ body{
     align-items: center;
     justify-content:center;
     gap:2px; 
-    height:260px;
+    height: 250px;
 }
 .img2{
     display:flex;
