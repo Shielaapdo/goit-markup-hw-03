@@ -154,7 +154,7 @@ body{
     flex-direction:row;
     align-items: center;
     justify-content:center;
-    gap:5px; 
+    gap:2px; 
     height:260px;
 }
 .img2{
@@ -191,6 +191,7 @@ body{
     letter-spacing: 0.32px;color: var(--CLOUD, #F4F4FD);
 }
 .hero-btn{
+    
     display: inline-flex;
     padding: 16px 32px;
     align-items: center;
@@ -245,16 +246,27 @@ body{
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
+/*
 .team-designation{
     color: var(--NAVY-BLUE, #2E2F42);
-    text-align: left;
+    text-align:left;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px; 
     letter-spacing: 0.4px;
-    margin-left:70px;
+    margin-left:20px;
+}
+*/
+.team-designation{
+    display:flex;
+    display:inline-flex;
+    align-items: center;
+    margin-left:5px;
+    margin-right:5px;
+    gap:5px;
+    
 }
 .title{
     display:flex;
@@ -308,22 +320,55 @@ body{
     display:flex;
     display:inline-flex;
     align-content:center;
-    justify-content: center;
-
+    justify-content:center;
     gap:20px;
-
     color:var(--SLATE, #434455);
     align-items:baseline;
-    margin-top: 40px;
+    margin-top:40px;
     margin-left:20px;
+    font-family:Roboto;
+    font-size: 16px;
+    font-style:normal;
+    font-weight:400;
+    line-height:24px; 
+    letter-spacing:0.32px;
+}
+.descript{
+    display:flex;
+    display:inline flex;
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    line-height: 24px; 
+    letter-spacing: 1.5px;
+
+}
+.btn-button1:hover{
+    cursor:pointer;
+    display:flex;
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    align-content:center;
+
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 24px; 
-    letter-spacing: 0.32px;
+    letter-spacing: 0.64px;
+
+    display:inline-flex;
+    padding: 12px 24px;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction:row;
+    gap:50px;
+
+    border-radius: 4px;
+    background: var(--OCEAN, #404BBF);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
-.btn-button1{
+.btn-button:hover{
+    cursor:pointer;
     display:flex;
     color: var(--WHITE, #FFF);
     text-align: center;
@@ -406,5 +451,21 @@ body{
 .hero-btn:hover{
     cursor:pointer;
     background-color:var (--ocean);
+}
+/*
+.h4{
+    display:flex;
+    display:inline-flex;
+    justify-content:center;
+    align-items: center;
+
+}
+*/
+.h4{
+    display:flex;
+    align-items: center;
+    margin-left:130px;
+    margin-right:100px;
+    gap:10px;
 }
 
