@@ -150,15 +150,26 @@ body{
     height: 250px;
     
 }
+/*
 .img1{
     display:flex;
     display:inline-flex;
     flex-direction:row;
-    align-items: center;
+    align-items:center;
     justify-content:center;
     gap:2px; 
     height: 250px;
 }
+.img3{
+    display:flex;
+    display:inline-flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:2px; 
+    height: 250px;}
+    */
+
 .img2{
     display:flex;
     display: inline-flex;
@@ -207,6 +218,18 @@ body{
 .hero-btn:hover{
     cursor:pointer;
     background-color:var (--ocean);
+}
+.card-container{
+    display:flex;
+    justify-content:center;
+    gap:24px;
+}
+.card{
+    list-style:none;
+    text-align:center;
+    box-shadow: 0px 2px 1px 0px #2e2f4214;
+    box-shadow: 0px 1px  1px 0px #2e2f4229;
+    box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
 .description1{ 
     color: var(--CLOUD, #F4F4FD);
@@ -261,6 +284,7 @@ body{
     margin-left:20px;
 }
 */
+/*
 .team-designation{
     display:flex;
     display:inline-flex;
@@ -270,17 +294,16 @@ body{
     gap:5px;
     
 }
+*/
 .title{
     display:flex;
-    display:inline-flex;
-    align-items:flex-start; 
-    max-width: 1200px;
+    display:flex-start;
+    max-width: 1150px;
     padding: 5px;
     margin-left: auto;
     margin-right: auto;
-    justify-content:space-evenly;
+    justify-content:space-between;
     color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -308,27 +331,19 @@ body{
   
 }
 .title-des{
-    display:flex;
-    align-items:flex-start;
     text-align: center;
     justify-content:center;
-    margin-left:60px;
     margin-bottom: 20px;
-    flex-wrap:nowrap;
+    margin-left:20px;
   
 
 }
 .des{
-    display:flex;
-    display:inline-flex;
-    align-content:center;
-    justify-content:center;
-    gap:20px;
+ 
     color:var(--SLATE, #434455);
     align-items:baseline;
     margin-top:40px;
     margin-left:20px;
-    font-family:Roboto;
     font-size: 16px;
     font-style:normal;
     font-weight:400;
