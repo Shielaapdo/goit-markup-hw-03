@@ -236,6 +236,8 @@ body{
     background-color: var(--White);
     display:flex;
     justify-content:space-between;
+    max-width:1200px;
+    margin:auto 0;
 }
 .list-list{
     display:flex;
@@ -512,6 +514,7 @@ body{
 .hero{
     padding-top: 100px;
     text-align:center;
+    margin:auto 0;
 }
 
 /*
