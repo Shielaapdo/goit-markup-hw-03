@@ -243,7 +243,7 @@ body{
     justify-content:space-between;
     padding-left:20px;
     max-width:1200px;
-    margin:Auto 0;
+    margin:0 auto;
 }
 .list-list{
     display:flex;
