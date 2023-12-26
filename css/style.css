@@ -527,7 +527,7 @@ body{
 .hero{
     padding-top: 100px;
     text-align:center;
-    margin:auto 0;
+    margin:0 auto;
 }
 
 /*
