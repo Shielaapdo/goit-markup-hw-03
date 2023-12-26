@@ -251,8 +251,8 @@ body{
 .list-2{
     display:flex;
     gap:3px;
-    margin-right:30px;
-    justify-content:flex-start;
+    margin-right:10px;
+    justify-content:flex-end;
 
 }
 .nav-list{
